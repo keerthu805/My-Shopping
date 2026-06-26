@@ -44,7 +44,7 @@
   margin-right: 15px;
 }
 
-button {
+.signup-container button {
   width: 100%;
   padding: 10px;
   background-color: darkblue;
@@ -53,7 +53,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-}
+  }
 
 button:hover {
   opacity: 0.9;
