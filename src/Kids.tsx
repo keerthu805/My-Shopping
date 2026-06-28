@@ -53,6 +53,7 @@ export default function Kids() {
   }
 
   return (
+    <>
     <div className="container">
       <div>
         <h1 className="conth1">Shop and Pay</h1>
@@ -90,6 +91,7 @@ export default function Kids() {
         ))}
       </div>
     </div>
-  );
+    </>
+  )
 }
 

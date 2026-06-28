@@ -51,6 +51,7 @@ export default function Men() {
   }
 
   return (
+    <>
     <div className="container">
       <div>
         <h1 className="conth1">Shop and Pay</h1>
@@ -87,6 +88,7 @@ export default function Men() {
         ))}
       </div>
     </div>
-  );
+    </>
+  )
 }
 

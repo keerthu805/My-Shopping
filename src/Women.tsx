@@ -51,7 +51,7 @@ function Women() {
         }
   }
   return (
-
+  <>
     <div className="container">
       <div>
         <h1 className="conth1">Shop and Pay</h1>
@@ -87,7 +87,8 @@ function Women() {
         ))}
       </div>
     </div>
-  );
+    </>
+  )
 }
 
 export default Women;

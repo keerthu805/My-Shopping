@@ -34,6 +34,7 @@ const route = useNavigate();
             
             }}
   return (
+    <>
     <div className="cart-container">
        <h1 className="carth1"><b><i>Shop and Pay</i></b></h1>
       <div className="cart-container1">
@@ -69,7 +70,8 @@ const route = useNavigate();
       </div>
     </div>
     </div>
-  );
+    </>
+  )
 }
 
 export default Cart;
